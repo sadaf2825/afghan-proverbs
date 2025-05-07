@@ -1,13 +1,17 @@
 # Afghan Proverbs 
 
-A RESTful API for storing and managing traditional Afghan proverbs in Dari, Pashto, and English.
+A RESTful API for storing and managing traditional Afghan proverbs and sayings in **Dari**, **Pashto**, and their **English translations**, with meanings and categories.
 
-# How to Run
+This project is built using **Node.js**, **Express**, and stores data in a local JSON file.
+
+---
+
+##  How to Run the Project Locally
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/afghan-proverbs-api.git
-cd afghan-proverbs-api
-npm install
-npm run dev
-# afghan-proverbs
+git clone https://github.com/YOUR_USERNAME/afghan-proverbs.git
+cd afghan-proverbs
+
 
