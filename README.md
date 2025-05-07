@@ -11,7 +11,7 @@ This project is built using **Node.js**, **Express**, and stores data in a local
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/afghan-proverbs.git
+git clone https://github.com/sadaf2825/afghan-proverbs.git
 cd afghan-proverbs
 
 
