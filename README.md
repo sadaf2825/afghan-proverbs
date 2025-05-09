@@ -4,16 +4,17 @@ A RESTful API for storing and managing traditional Afghan proverbs and sayings i
 
 This project is made by using Node.js, Express, and stores data in a local JSON file. 
 
----
 
 ### how to run the project locally
 
-### 1. Clone the Repository
+### 1. clone the repository
+
+
 ```bash
 git clone https://github.com/sadaf2825/afghan-proverbs.git   
 cd afghan-proverbs
 
-### 2 install dependencies
+### 2. Install Dependencies
 
 npm install
 
@@ -21,17 +22,16 @@ npm install
 
 npm run dev
 
+| Method  | Endpoint               | Description                       
 
-| Method | Endpoint               | Description                       
-
-| GET    | /proverbs              | Get all proverbs                  
-| GET    | /proverbs/\:id         | Get a single proverb by ID        
-| POST   | /proverbs              | Add a new proverb                 
-| PUT    | /proverbs/\:id         | Update an existing proverb        
-| DELETE | /proverbs/\:id         | Delete a proverb                  
-| GET    | /proverbs/random       | Get a random proverb              
-| GET    | /proverbs?category=... | Filter proverbs by category       
-| GET    | /proverbs?search=...   | Search by keyword in any language 
+ GET      /proverbs                  Get all proverbs                  
+ GET      /proverbs/\:id             Get a single proverb by ID        
+ POST     /proverbs                  Add a new proverb                 
+ PUT      /proverbs/\:id             Update an existing proverb        
+ DELETE   /proverbs/\:id             Delete a proverb                  
+ GET      /proverbs/random           Get a random proverb              
+ GET      /proverbs?category=...     Filter proverbs by category       
+ GET     /proverbs?search=...        Search by keyword in any language 
 
 ### each proverb looks like this:
 {
