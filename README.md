@@ -14,7 +14,7 @@ This project is made by using Node.js, Express, and stores data in a local JSON 
 git clone https://github.com/sadaf2825/afghan-proverbs.git   
 cd afghan-proverbs
 
-### 2. Install Dependencies
+### 2. install dependencies
 
 npm install
 
